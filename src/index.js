@@ -7,8 +7,7 @@ function random_bg_color() {
 }
 
 function changeColor() {
-    // var x = document.querySelector('div');
-    var x = $('div');
+    var x = document.querySelector('div');
     x.style.width = "100px";
     x.style.height = "100px"
     x.style.backgroundColor =random_bg_color();
